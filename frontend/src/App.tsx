@@ -182,7 +182,7 @@ function App() {
 
     try {
       const response = await fetch(
-        'http://127.0.0.1:8001/chat',
+        'https://ava-ai-backend.onrender.com/chat',
         {
           method: 'POST',
           headers: {
